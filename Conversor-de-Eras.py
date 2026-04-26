@@ -17,9 +17,12 @@ def converter_dias_para_anos():
             if sair_ou_ficar == "s":
                 print("Saindo")
                 break
-            else:
+            elif sair_ou_ficar == "n":
                 print("Continuando então ")
                 limpar_tela()
+            
+            else:
+                print("Apenas (s/n)")
                 
         
         except ValueError:
