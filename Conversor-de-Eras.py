@@ -3,7 +3,7 @@ import os
 
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
-    #  não tava funcionado dentro do else então criei uma função pra rodar a opção de limpar a tela
+    #  não tava funcionado dentro do else então criei uma função pra rodar a opção de limpar a tela em tudo
     
 def converter_dias_para_anos():
     while True:
